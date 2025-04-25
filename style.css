@@ -305,13 +305,13 @@ header {
 
 .discount {
     font-size: 2.5rem;
-    color: var(--cor-primaria);
-    font-weight: bold;
-    margin-top: 10px;
+    color: var(--cor-news);
+    font-weight: 700;
 }
 
 .hero-text p{
-    color: var(--cor-primaria);
+    color: var(--cor-news);
+    font-size: 1.5rem;
 }
 
 .products {
@@ -329,7 +329,6 @@ header {
 }
 
 .swiper {
-    overflow: visible !important;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -367,7 +366,7 @@ header {
     transition: 300ms opacity;
     transform: translate3d(0, 0, 0);
     z-index: 10;
-    bottom: 0;
+    bottom: -9px !important;
     left: 0;
     width: 100%;
 }
@@ -582,7 +581,7 @@ header {
 }
 
 .newsletter {
-    padding: 60px 0;
+    padding: 80px 0;
     background-color: #fff;
 }
 
@@ -664,7 +663,6 @@ header {
 }
 
 footer {
-
     background-color: var(--background-footer);
     border-top: 1px solid var(--cor-borda);
 }
@@ -884,7 +882,8 @@ footer {
     .desconto {
         flex-direction: column;
         height: auto;
-        padding: 5px 0;
+        padding: 10px 0;
+        text-align: center;
     }
 
     /* .product-swiper:nth-of-type(2) {

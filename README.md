@@ -16,4 +16,4 @@ Este projeto é um desafio de landing page com foco em interatividade e responsi
 ### Clonando o repositório
 
 ```bash
-git clone [https://github.com/usuario/challenges-innovation.git](https://github.com/gaabs16/challenges-innovation.git)
+git clone https://github.com/gaabs16/challenges-innovation.git
